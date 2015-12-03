@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+
+<pre>
+
+{% for group in groups %}
+
+    {% for v in group.items %}
+        {{ v.venue }}
+    {% endfor %}
+
+{% endfor %}
+
+
+</pre>
+
+
+</body>
+</html>
